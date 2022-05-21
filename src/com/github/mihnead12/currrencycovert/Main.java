@@ -1,5 +1,9 @@
 package com.github.mihnead12.currrencycovert;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Main {
     public static boolean isDouble(String val) {
         try {
