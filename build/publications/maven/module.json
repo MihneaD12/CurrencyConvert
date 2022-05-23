@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mihnead12.currencyconvert",
+    "module": "CurrencyConvert",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "CurrencyConvert-1.0.jar",
+          "url": "CurrencyConvert-1.0.jar",
+          "size": 5434,
+          "sha512": "7a6d43ef2c79655f0f4d9537ac40cfbc7c4477a74c2ea20088a87447ad0fdfee8759ca2b8f75681bd99b993412929ccd98d0cc26d914b1d7ac2825d788e5653e",
+          "sha256": "9a6e1f9fc732e49cf574079e0731e276b932775fad1ca2b5087e16e22e00ef04",
+          "sha1": "e4677cdf7737737a3b524ad275a30708a8b4e49e",
+          "md5": "41df5fedb5a2a2f4eea0650b9810efc0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20190722"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurrencyConvert-1.0.jar",
+          "url": "CurrencyConvert-1.0.jar",
+          "size": 5434,
+          "sha512": "7a6d43ef2c79655f0f4d9537ac40cfbc7c4477a74c2ea20088a87447ad0fdfee8759ca2b8f75681bd99b993412929ccd98d0cc26d914b1d7ac2825d788e5653e",
+          "sha256": "9a6e1f9fc732e49cf574079e0731e276b932775fad1ca2b5087e16e22e00ef04",
+          "sha1": "e4677cdf7737737a3b524ad275a30708a8b4e49e",
+          "md5": "41df5fedb5a2a2f4eea0650b9810efc0"
+        }
+      ]
+    }
+  ]
+}

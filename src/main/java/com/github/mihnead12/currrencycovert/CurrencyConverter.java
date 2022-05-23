@@ -1,7 +1,7 @@
 package com.github.mihnead12.currrencycovert;
 
-import com.github.mihnead12.currrencycovert.exceptions.CurrencyNotValid;
 import com.github.mihnead12.currrencycovert.web.WebDataFetcher;
+import com.github.mihnead12.currrencycovert.exceptions.CurrencyNotValid;
 import com.github.mihnead12.currrencycovert.web.exceptions.FetchError;
 import org.json.JSONObject;
 

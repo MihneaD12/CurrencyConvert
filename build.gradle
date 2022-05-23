@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'com.github.mihnead12.currencyconvert'
+version '1.0'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.mihnead12.currencyconvert'
+            artifactId = 'CurrencyConvert'
+            version = '1.0'
+
+            from components.java
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.json', name: 'json', version: '20190722'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+}
