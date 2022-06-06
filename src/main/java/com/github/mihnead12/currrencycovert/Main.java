@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
+    // https://free.currconv.com/api/v7/convert?q=USD_PHP&apiKey=bff1185cbb19a624dd38
     public static boolean isDouble(String val) {
         try {
             Double.parseDouble(val);

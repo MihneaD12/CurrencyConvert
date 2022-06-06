@@ -10,7 +10,6 @@ import java.net.URLConnection;
 import java.util.Objects;
 
 public class WebDataFetcher {
-
     public static JSONObject fetchJSONObject(String url) throws FetchError {
         try {
             return new JSONObject(Objects.requireNonNull(fetchData(url)));
